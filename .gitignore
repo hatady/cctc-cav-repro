@@ -11,3 +11,4 @@ opp_scaveindex
 .DS_Store Thumbs.db *~ *.orig
 *.tar.gz *.tgz *.zip
 .metadata/
+.metadata/
