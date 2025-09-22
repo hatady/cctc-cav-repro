@@ -1,0 +1,256 @@
+14:51:17 **** Build of configuration gcc-debug for project veins ****
+make MODE=debug -j12 all 
+make[1]: Entering directory '/home/hatada/work/cctc-cav-repro/third_party/veins/src'
+veins/base/connectionManager/BaseConnectionManager.cc
+veins/base/connectionManager/ChannelAccess.cc
+veins/base/connectionManager/ConnectionManager.cc
+veins/base/connectionManager/NicEntryDebug.cc
+veins/base/modules/BaseApplLayer.cc
+veins/base/connectionManager/NicEntryDirect.cc
+veins/base/modules/BaseBattery.cc
+veins/base/modules/BaseLayer.cc
+veins/base/modules/BaseMacLayer.cc
+veins/base/modules/BaseMobility.cc
+veins/base/modules/BaseWorldUtility.cc
+veins/base/modules/BaseModule.cc
+veins/base/modules/BatteryAccess.cc
+veins/base/phyLayer/Antenna.cc
+veins/base/phyLayer/BaseDecider.cc
+veins/base/phyLayer/BasePhyLayer.cc
+veins/base/phyLayer/ChannelInfo.cc
+veins/base/phyLayer/Decider.cc
+veins/base/phyLayer/PhyUtils.cc
+veins/base/toolbox/Signal.cc
+veins/base/toolbox/SignalUtils.cc
+veins/base/toolbox/Spectrum.cc
+veins/base/utils/Coord.cc
+veins/base/utils/Heading.cc
+In file included from ./veins/base/toolbox/Signal.h:29,
+                 from ./veins/base/toolbox/Signal_m.h:39,
+                 from ./veins/base/messages/AirFrame_m.h:37,
+                 from veins/base/phyLayer/BaseDecider.cc:33:
+./veins/base/toolbox/Spectrum.h:56:82: warning: ‘visibility’ attribute ignored on non-class types [-Wattributes]
+   56 |     friend std::ostream& VEINS_API operator<<(std::ostream& os, const Spectrum& s);
+      |                                                                                  ^
+In file included from ./veins/base/toolbox/Signal.h:29,
+                 from ./veins/base/toolbox/Signal_m.h:39,
+                 from ./veins/base/messages/AirFrame_m.h:37,
+                 from ./veins/base/phyLayer/ChannelInfo.h:31,
+                 from veins/base/phyLayer/ChannelInfo.cc:25:
+./veins/base/toolbox/Spectrum.h:56:82: warning: ‘visibility’ attribute ignored on non-class types [-Wattributes]
+   56 |     friend std::ostream& VEINS_API operator<<(std::ostream& os, const Spectrum& s);
+      |                                                                                  ^
+In file included from ./veins/base/toolbox/Signal.h:29,
+                 from ./veins/base/toolbox/Signal_m.h:39,
+                 from ./veins/base/messages/AirFrame_m.h:37,
+                 from ./veins/base/phyLayer/ChannelInfo.h:31,
+                 from ./veins/base/phyLayer/BasePhyLayer.h:38,
+                 from veins/base/phyLayer/BasePhyLayer.cc:25:
+./veins/base/toolbox/Spectrum.h:56:82: warning: ‘visibility’ attribute ignored on non-class types [-Wattributes]
+   56 |     friend std::ostream& VEINS_API operator<<(std::ostream& os, const Spectrum& s);
+      |                                                                                  ^
+veins/base/utils/NedFunctions.cc
+In file included from ./veins/base/toolbox/Signal.h:29,
+                 from ./veins/base/toolbox/Signal_m.h:39,
+                 from ./veins/base/messages/AirFrame_m.h:37,
+                 from veins/base/phyLayer/PhyUtils.cc:27:
+./veins/base/toolbox/Spectrum.h:56:82: warning: ‘visibility’ attribute ignored on non-class types [-Wattributes]
+   56 |     friend std::ostream& VEINS_API operator<<(std::ostream& os, const Spectrum& s);
+      |                                                                                  ^
+veins/base/utils/NetwToMacControlInfo.cc
+veins/base/utils/SimpleAddress.cc
+In file included from veins/base/toolbox/Spectrum.cc:23:
+./veins/base/toolbox/Spectrum.h:56:82: warning: ‘visibility’ attribute ignored on non-class types [-Wattributes]
+   56 |     friend std::ostream& VEINS_API operator<<(std::ostream& os, const Spectrum& s);
+      |                                                                                  ^
+In file included from ./veins/base/toolbox/Signal.h:29,
+                 from ./veins/base/toolbox/SignalUtils.h:35,
+                 from veins/base/toolbox/SignalUtils.cc:23:
+./veins/base/toolbox/Spectrum.h:56:82: warning: ‘visibility’ attribute ignored on non-class types [-Wattributes]
+   56 |     friend std::ostream& VEINS_API operator<<(std::ostream& os, const Spectrum& s);
+      |                                                                                  ^
+veins/base/utils/winsupport.cc
+veins/modules/analogueModel/BreakpointPathlossModel.cc
+In file included from ./veins/base/toolbox/Signal.h:29,
+                 from veins/base/toolbox/Signal.cc:23:
+./veins/base/toolbox/Spectrum.h:56:82: warning: ‘visibility’ attribute ignored on non-class types [-Wattributes]
+   56 |     friend std::ostream& VEINS_API operator<<(std::ostream& os, const Spectrum& s);
+      |                                                                                  ^
+veins/modules/analogueModel/NakagamiFading.cc
+veins/modules/analogueModel/PERModel.cc
+veins/modules/analogueModel/SimpleObstacleShadowing.cc
+veins/modules/analogueModel/SimplePathlossModel.cc
+veins/modules/analogueModel/TwoRayInterferenceModel.cc
+veins/modules/analogueModel/VehicleObstacleShadowing.cc
+veins/modules/application/ieee80211p/DemoBaseApplLayer.cc
+In file included from ./veins/base/toolbox/Signal.h:29,
+                 from ./veins/base/toolbox/Signal_m.h:39,
+                 from ./veins/base/messages/AirFrame_m.h:37,
+                 from veins/modules/analogueModel/BreakpointPathlossModel.cc:27:
+./veins/base/toolbox/Spectrum.h:56:82: warning: ‘visibility’ attribute ignored on non-class types [-Wattributes]
+   56 |     friend std::ostream& VEINS_API operator<<(std::ostream& os, const Spectrum& s);
+      |                                                                                  ^
+veins/modules/application/traci/MyVeinsApp.cc
+In file included from ./veins/base/toolbox/Signal.h:29,
+                 from ./veins/base/toolbox/Signal_m.h:39,
+                 from ./veins/base/messages/AirFrame_m.h:37,
+                 from ./veins/modules/analogueModel/NakagamiFading.h:28,
+                 from veins/modules/analogueModel/NakagamiFading.cc:24:
+./veins/base/toolbox/Spectrum.h:56:82: warning: ‘visibility’ attribute ignored on non-class types [-Wattributes]
+   56 |     friend std::ostream& VEINS_API operator<<(std::ostream& os, const Spectrum& s);
+      |                                                                                  ^
+veins/modules/application/traci/TraCIDemo11p.cc
+veins/modules/application/traci/TraCIDemoRSU11p.cc
+veins/modules/application/traci/TraCIDemoTrafficLightApp.cc
+veins/modules/mac/ieee80211p/Mac1609_4.cc
+In file included from ./veins/base/toolbox/Signal.h:29,
+                 from ./veins/base/toolbox/Signal_m.h:39,
+                 from ./veins/base/messages/AirFrame_m.h:37,
+                 from ./veins/modules/analogueModel/SimpleObstacleShadowing.h:31,
+                 from veins/modules/analogueModel/SimpleObstacleShadowing.cc:23:
+./veins/base/toolbox/Spectrum.h:56:82: warning: ‘visibility’ attribute ignored on non-class types [-Wattributes]
+   56 |     friend std::ostream& VEINS_API operator<<(std::ostream& os, const Spectrum& s);
+      |                                                                                  ^
+In file included from ./veins/base/toolbox/Signal.h:29,
+                 from ./veins/base/toolbox/Signal_m.h:39,
+                 from ./veins/base/messages/AirFrame_m.h:37,
+                 from veins/modules/analogueModel/SimplePathlossModel.cc:27:
+./veins/base/toolbox/Spectrum.h:56:82: warning: ‘visibility’ attribute ignored on non-class types [-Wattributes]
+   56 |     friend std::ostream& VEINS_API operator<<(std::ostream& os, const Spectrum& s);
+      |                                                                                  ^
+In file included from ./veins/base/toolbox/Signal.h:29,
+                 from ./veins/base/toolbox/Signal_m.h:39,
+                 from ./veins/base/messages/AirFrame_m.h:37,
+                 from veins/modules/analogueModel/TwoRayInterferenceModel.cc:24:
+./veins/base/toolbox/Spectrum.h:56:82: warning: ‘visibility’ attribute ignored on non-class types [-Wattributes]
+   56 |     friend std::ostream& VEINS_API operator<<(std::ostream& os, const Spectrum& s);
+      |                                                                                  ^
+In file included from ./veins/base/toolbox/Signal.h:29,
+                 from ./veins/base/toolbox/Signal_m.h:39,
+                 from ./veins/base/messages/AirFrame_m.h:37,
+                 from veins/modules/analogueModel/PERModel.cc:27:
+./veins/base/toolbox/Spectrum.h:56:82: warning: ‘visibility’ attribute ignored on non-class types [-Wattributes]
+   56 |     friend std::ostream& VEINS_API operator<<(std::ostream& os, const Spectrum& s);
+      |                                                                                  ^
+veins/modules/mobility/LinearMobility.cc
+In file included from ./veins/base/toolbox/Signal.h:29,
+                 from ./veins/base/toolbox/Signal_m.h:39,
+                 from ./veins/base/messages/AirFrame_m.h:37,
+                 from ./veins/modules/analogueModel/VehicleObstacleShadowing.h:29,
+                 from veins/modules/analogueModel/VehicleObstacleShadowing.cc:23:
+./veins/base/toolbox/Spectrum.h:56:82: warning: ‘visibility’ attribute ignored on non-class types [-Wattributes]
+   56 |     friend std::ostream& VEINS_API operator<<(std::ostream& os, const Spectrum& s);
+      |                                                                                  ^
+veins/modules/mobility/traci/TraCIBuffer.cc
+veins/modules/mobility/traci/TraCIColor.cc
+veins/modules/mobility/traci/TraCICommandInterface.cc
+veins/modules/mobility/traci/TraCIConnection.cc
+veins/modules/mobility/traci/TraCICoordinateTransformation.cc
+In file included from ./veins/base/toolbox/Signal.h:29,
+                 from ./veins/base/toolbox/Signal_m.h:39,
+                 from ./veins/base/messages/AirFrame_m.h:37,
+                 from ./veins/base/phyLayer/ChannelInfo.h:31,
+                 from ./veins/base/phyLayer/BasePhyLayer.h:38,
+                 from ./veins/modules/phy/PhyLayer80211p.h:25,
+                 from ./veins/modules/mac/ieee80211p/Mac1609_4.h:32,
+                 from veins/modules/mac/ieee80211p/Mac1609_4.cc:24:
+./veins/base/toolbox/Spectrum.h:56:82: warning: ‘visibility’ attribute ignored on non-class types [-Wattributes]
+   56 |     friend std::ostream& VEINS_API operator<<(std::ostream& os, const Spectrum& s);
+      |                                                                                  ^
+veins/modules/mac/ieee80211p/Mac1609_4.cc: In member function ‘virtual void veins::Mac1609_4::changeServiceChannel(veins::Channel)’:
+veins/modules/mac/ieee80211p/Mac1609_4.cc:529:65: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘veins::Channel’ [-Wformat=]
+  529 |         throw cRuntimeError("This Service Channel doesnt exit: %d", cN);
+      |                                                                ~^   ~~
+      |                                                                 |   |
+      |                                                                 int veins::Channel
+veins/modules/mobility/traci/TraCILauncher.cc
+veins/modules/mobility/traci/TraCIMobility.cc
+veins/modules/mobility/traci/TraCIRegionOfInterest.cc
+veins/modules/mobility/traci/TraCIScenarioManager.cc
+veins/modules/mobility/traci/TraCIScenarioManagerForker.cc
+veins/modules/mobility/traci/TraCIScenarioManagerLaunchd.cc
+veins/modules/mobility/traci/TraCIScreenRecorder.cc
+veins/modules/mobility/traci/TraCIVehicleInserter.cc
+veins/modules/obstacle/MobileHostObstacle.cc
+veins/modules/obstacle/Obstacle.cc
+veins/modules/obstacle/ObstacleControl.cc
+veins/modules/obstacle/VehicleObstacleControl.cc
+veins/modules/phy/Decider80211p.cc
+veins/modules/phy/NistErrorRate.cc
+veins/modules/phy/PhyLayer80211p.cc
+veins/modules/phy/SampledAntenna1D.cc
+veins/modules/utility/BBoxLookup.cc
+veins/modules/utility/HasLogProxy.cc
+veins/modules/utility/TimerManager.cc
+In file included from ./veins/base/toolbox/Signal.h:29,
+                 from veins/modules/obstacle/VehicleObstacleControl.cc:33:
+./veins/base/toolbox/Spectrum.h:56:82: warning: ‘visibility’ attribute ignored on non-class types [-Wattributes]
+   56 |     friend std::ostream& VEINS_API operator<<(std::ostream& os, const Spectrum& s);
+      |                                                                                  ^
+veins/modules/world/annotations/AnnotationDummy.cc
+In file included from ./veins/base/toolbox/Signal.h:29,
+                 from veins/modules/phy/Decider80211p.cc:33:
+./veins/base/toolbox/Spectrum.h:56:82: warning: ‘visibility’ attribute ignored on non-class types [-Wattributes]
+   56 |     friend std::ostream& VEINS_API operator<<(std::ostream& os, const Spectrum& s);
+      |                                                                                  ^
+veins/modules/world/annotations/AnnotationManager.cc
+In file included from ./veins/base/toolbox/Signal.h:29,
+                 from ./veins/base/toolbox/Signal_m.h:39,
+                 from ./veins/base/messages/AirFrame_m.h:37,
+                 from ./veins/base/phyLayer/ChannelInfo.h:31,
+                 from ./veins/base/phyLayer/BasePhyLayer.h:38,
+                 from ./veins/modules/phy/PhyLayer80211p.h:25,
+                 from veins/modules/phy/PhyLayer80211p.cc:28:
+./veins/base/toolbox/Spectrum.h:56:82: warning: ‘visibility’ attribute ignored on non-class types [-Wattributes]
+   56 |     friend std::ostream& VEINS_API operator<<(std::ostream& os, const Spectrum& s);
+      |                                                                                  ^
+veins/modules/world/traci/trafficLight/TraCITrafficLightInterface.cc
+veins/modules/world/traci/trafficLight/TraCITrafficLightProgram.cc
+veins/modules/world/traci/trafficLight/logics/TraCITrafficLightAbstractLogic.cc
+veins/modules/world/traci/trafficLight/logics/TraCITrafficLightSimpleLogic.cc
+veins/visualizer/roads/RoadsCanvasVisualizer.cc
+veins/visualizer/roads/RoadsOsgVisualizer.cc
+veins/common_m.cc
+veins/base/messages/AirFrame_m.cc
+veins/base/messages/BorderMsg_m.cc
+veins/base/messages/MacPkt_m.cc
+In file included from ./veins/base/toolbox/Signal.h:29,
+                 from ./veins/base/toolbox/Signal_m.h:39,
+                 from veins/base/messages/AirFrame_m.h:37,
+                 from veins/base/messages/AirFrame_m.cc:31:
+./veins/base/toolbox/Spectrum.h:56:82: warning: ‘visibility’ attribute ignored on non-class types [-Wattributes]
+   56 |     friend std::ostream& VEINS_API operator<<(std::ostream& os, const Spectrum& s);
+      |                                                                                  ^
+veins/base/toolbox/Signal_m.cc
+veins/base/utils/Coord_m.cc
+veins/base/utils/POA_m.cc
+veins/base/utils/SimpleAddress_m.cc
+veins/modules/application/traci/TraCIDemo11pMessage_m.cc
+veins/modules/messages/AckTimeOutMessage_m.cc
+veins/modules/messages/AirFrame11p_m.cc
+veins/modules/messages/BaseFrame1609_4_m.cc
+veins/modules/messages/DemoSafetyMessage_m.cc
+In file included from ./veins/base/toolbox/Signal.h:29,
+                 from veins/base/toolbox/Signal_m.h:39,
+                 from veins/base/toolbox/Signal_m.cc:31:
+./veins/base/toolbox/Spectrum.h:56:82: warning: ‘visibility’ attribute ignored on non-class types [-Wattributes]
+   56 |     friend std::ostream& VEINS_API operator<<(std::ostream& os, const Spectrum& s);
+      |                                                                                  ^
+veins/modules/messages/DemoServiceAdvertisement_m.cc
+veins/modules/messages/Mac80211Ack_m.cc
+veins/modules/messages/Mac80211Pkt_m.cc
+veins/modules/messages/PhyControlMessage_m.cc
+In file included from ./veins/base/toolbox/Signal.h:29,
+                 from ./veins/base/toolbox/Signal_m.h:39,
+                 from ./veins/base/messages/AirFrame_m.h:37,
+                 from veins/modules/messages/AirFrame11p_m.h:37,
+                 from veins/modules/messages/AirFrame11p_m.cc:31:
+./veins/base/toolbox/Spectrum.h:56:82: warning: ‘visibility’ attribute ignored on non-class types [-Wattributes]
+   56 |     friend std::ostream& VEINS_API operator<<(std::ostream& os, const Spectrum& s);
+      |                                                                                  ^
+veins/modules/messages/TraCITrafficLightMessage_m.cc
+Creating shared library: ../out/gcc-debug/src/libveins_dbg.so
+make[1]: Leaving directory '/home/hatada/work/cctc-cav-repro/third_party/veins/src'
+
+14:51:45 Build Finished. 0 errors, 22 warnings. (took 28s.363ms)
+
