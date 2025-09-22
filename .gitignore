@@ -1,0 +1,12 @@
+/out/
+/results/
+/tmp/
+/bin/
+/lib/
+*.o *.a *.so *.d *.exe *.vec
+*.oppbackup *.oppfeaturestate
+.cmdenv-log .qtenvrc .qtenvrc.ini
+opp_scaveindex
+/.metadata/ /.project /.cproject /.settings/ *.userprefs
+.DS_Store Thumbs.db *~ *.orig
+*.tar.gz *.tgz *.zip
