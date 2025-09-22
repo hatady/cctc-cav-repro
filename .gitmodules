@@ -1,0 +1,9 @@
+[submodule "third_party/inet"]
+	path = third_party/inet
+	url = https://github.com/inet-framework/inet.git
+[submodule "third_party/veins"]
+	path = third_party/veins
+	url = https://github.com/sommer/veins.git
+[submodule "third_party/simu5g"]
+	path = third_party/simu5g
+	url = https://github.com/Unipisa/Simu5G.git
