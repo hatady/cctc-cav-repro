@@ -10,3 +10,4 @@ opp_scaveindex
 /.metadata/ /.project /.cproject /.settings/ *.userprefs
 .DS_Store Thumbs.db *~ *.orig
 *.tar.gz *.tgz *.zip
+.metadata/
